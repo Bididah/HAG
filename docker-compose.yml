@@ -1,0 +1,17 @@
+version: '3.8' 
+
+services:
+  db:
+    image: postgres:latest
+    container_name: postgres_container
+    environment:
+      POSTGRES_USER: HAG
+      POSTGRES_PASSWORD: HAG123
+      POSTGRES_DB: HAG_DB_DEV
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:
