@@ -1,0 +1,21 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  reference: MyString
+  supplier: one
+  date: 2024-08-06
+  pph_total: 1
+  ppv_total: 1
+  status: false
+  product: one
+  quantity: 1
+
+two:
+  reference: MyString
+  supplier: two
+  date: 2024-08-06
+  pph_total: 1
+  ppv_total: 1
+  status: false
+  product: two
+  quantity: 1
